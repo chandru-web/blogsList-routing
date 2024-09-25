@@ -1,0 +1,36 @@
+/* Reset the list style for blog items */
+.blog-list-item {
+  list-style-type: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+}
+
+.blog-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.blog-name {
+  color: #12022f;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.date {
+  color: #616e7c;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.blog-description {
+  color: #9aa5b1;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
